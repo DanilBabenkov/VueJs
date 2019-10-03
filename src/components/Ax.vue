@@ -1,4 +1,39 @@
 <template>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+
     <div>
 <!--        <input type="text" v-model="postBody" @change="postPost()"/>-->
         <section>
@@ -10,7 +45,7 @@
         </div>
         </section>
 <!--        <p>{{info.name}}</p>-->
-    </div>
+    </div>   </nav>
 </template>
 
 <!--<script src = " https://unpkg.com/axios/dist/axios.min.js " > </script>-->
@@ -42,7 +77,7 @@
             // ,
             axios.get('http://acm.tom.ru:8008/api/classroom/list', {
                 headers: {
-                    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njk5MDMyNDQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.QsmMcEabk5KJUL2PcB0r0UTFIkzO-jWl8GRxxejsQck'
+                    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzAxNjU4NjQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.7KaLxqIWIMxNZuzu0ZIiPSBXnioXkFhOEUTg_ClPXoo'
                 },
             })
                 .then(response => {this.info = response.data[0]

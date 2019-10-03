@@ -36,7 +36,7 @@
                 axios.get(`http://acm.tom.ru:8008/api/classroom/${ID}`,
                     {
                         headers: {
-                            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njk5MDMyNDQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.QsmMcEabk5KJUL2PcB0r0UTFIkzO-jWl8GRxxejsQck'
+                            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzAxNjU4NjQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.7KaLxqIWIMxNZuzu0ZIiPSBXnioXkFhOEUTg_ClPXoo'
                         },
                     })
                     .then(response=> {
@@ -46,10 +46,11 @@
                         console.log(error)
                     })
             },
+            //local
             addProduct(ID){
                 axios.patch(`http://acm.tom.ru:8008/api/classroom/update/${ID}`, this.info, {
                     headers: {
-                    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njk5MDMyNDQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.QsmMcEabk5KJUL2PcB0r0UTFIkzO-jWl8GRxxejsQck'}
+                    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzAxNjU4NjQsIkFjY291bnRJRCI6IjAyNTQ0NjI0LWJmMjMtNGU5NS05NDY2LWM2MzY0MDEwMjc0MCIsIlVzZXIiOiLQkdCw0LHQtdC90LrQvtCyINCU0LDQvdC40Lsg0KHQtdGA0LPQtdC10LLQuNGHIiwiSWQiOjI2fQ.7KaLxqIWIMxNZuzu0ZIiPSBXnioXkFhOEUTg_ClPXoo'}
                 })
                     .then(response => {
                         this.$router.push('/ax')
