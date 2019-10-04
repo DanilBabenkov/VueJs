@@ -11,40 +11,41 @@
 <script>
     import Multiselect from 'vue-multiselect'
 
-    export default {
-        name: "Multi",
-        components: {
-            Multiselect
-        },
-        data () {
-            return {
-                options: [
-                    {
-                        language: 'Javascript',
-                        libs: [
-                            { name: 'Vue.js', category: 'Front-end' },
-                            { name: 'Adonis', category: 'Backend' }
-                        ]
-                    },
-                    {
-                        language: 'Ruby',
-                        libs: [
-                            { name: 'Rails', category: 'Backend' },
-                            { name: 'Sinatra', category: 'Backend' }
-                        ]
-                    },
-                    {
-                        language: 'Other',
-                        libs: [
-                            { name: 'Laravel', category: 'Backend' },
-                            { name: 'Phoenix', category: 'Backend' }
-                        ]
-                    }
-                ],
-                value: []
+        export default {
+            name: "Multi",
+            components: {
+                Multiselect
+            },
+            data() {
+                return {
+                    options: [
+                        {
+                            language: 'Javascript',
+                            libs: [
+                                {name: 'Vue.js', category: 'Front-end'},
+                                {name: 'Adonis', category: 'Backend'}
+                            ]
+                        },
+                        {
+                            language: 'Ruby',
+                            libs: [
+                                {name: 'Rails', category: 'Backend'},
+                                {name: 'Sinatra', category: 'Backend'}
+                            ]
+                        },
+                        {
+                            language: 'Other',
+                            libs: [
+                                {name: 'Laravel', category: 'Backend'},
+                                {name: 'Phoenix', category: 'Backend'}
+                            ]
+                        }
+                    ],
+                    value: []
+                }
             }
         }
-    }
+
 </script>
 
 <style src="vue-multiselect/dist/vue-multiselect.min.css">

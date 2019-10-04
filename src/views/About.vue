@@ -8,5 +8,6 @@
     <router-link to="/multi">Multi</router-link>|
     <router-link to="/vuex">Example Vuex</router-link>|
       <router-link to="/vuex1">Example Vuex 1</router-link>|
+      <router-link to="/func">Function</router-link>|
   </div>
 </template>

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import store from './store'
 import Vuex from 'vuex'
+import MyPlugin from './components/Func'
 import App from './App.vue'
 import router from './router'
 import VueResource from 'vue-resource'
@@ -15,6 +16,7 @@ import './assets/css/main.css'
 
 
 Vue.use(Vuex);
+Vue.use(MyPlugin);
 // const anime = require('anime');
 window.axios = axios
 Vue.use(VueResource)
