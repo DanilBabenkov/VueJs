@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/material-dashboard.css'
 import './assets/css/material-dashboard-rtl.css'
 import './assets/css/main.css'
-//sdsdxcfdg
+//sdsdxcfdgxcv
 Vue.use(Vuex);
 Vue.use(MyPlugin);
 // const anime = require('anime');
