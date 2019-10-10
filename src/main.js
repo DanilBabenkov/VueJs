@@ -7,13 +7,12 @@ import router from './router'
 import VueResource from 'vue-resource'
 import axios from 'axios'
 import jQuery from "jquery"
-// import anime from "/dist/js/anime.es.js"
+
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/material-dashboard.css'
 import './assets/css/material-dashboard-rtl.css'
 import './assets/css/main.css'
-
 
 Vue.use(Vuex);
 Vue.use(MyPlugin);

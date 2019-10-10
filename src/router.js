@@ -107,5 +107,29 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './components/Func.vue')
     },
+    {
+      path: '/course1',
+      name: 'course1',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './components/Course1.vue')
+    },
+    {
+          path: '/coursebook1',
+          name: 'coursebook1',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "about" */ './components/CBook.vue')
+        },
+    {
+      path: '/basicpage',
+      name: 'basicpage',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/Basic page.vue')
+    },
   ]
 })
