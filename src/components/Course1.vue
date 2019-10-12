@@ -10,12 +10,12 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="row">
                 <h4>ECTS credits 9.0</h4>
+                <div class="row">
                 <p>This course is an introduction to upper level mathematics courses. It server as a transition into advanced mathematics. It is usually taken concurrently with the initial calculus sequence and before mid-level mathematics courses. The goal is to get students at the same page in terms of their skills and techniques that they will need as they study any type of advanced mathematics, whether it be in pure mathematics, applied mathematics, or application-oriented courses having in mind the different level of preparation in mathematics courses world-wide</p>
                 </div>
+                <h4>Цель обучения</h4>
                 <div class="row">
-                    <h4>Цель обучения</h4>
                     <p>По окончании курса студенты будут:</p>
                     <ul>
                         <li>знать основные понятия, определения, основные теоремы и методы в исчислении и линейной алгебре;</li>
@@ -25,8 +25,8 @@
                         <li>научись разрабатывать сложные математические рассуждения;</li>
                     </ul>
                 </div>
+                <h4>Преподаватель</h4>
                 <div class="row">
-                    <h4>Преподаватель</h4>
                     <img src="data:image/jpeg;base64,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">
                      </div>
             </div>
@@ -50,7 +50,7 @@
                         <li><a>Базы данных</a></li>
                         <li>Математический анализ</li>
                     </ul>
-                     </div>
+                </div>
                </div>
                 <div class="row" id="rer">
                     <h4>Константинопольский Константин Константинович</h4>
@@ -59,16 +59,6 @@
                 </div>
             </div>
         </div>
-
-    <footer class="page-footer font-small blue">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-
-    </footer>
     </div>
 </template>
 <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
@@ -80,10 +70,24 @@
 
 <style scoped>
 p, ul{
-    font-size: 13px;
+    font-size: 11px;
+    text-align: justify;
+}
+h4{
+    text-align: left;
+    padding-bottom: 8px;
+}
+h6{
+    padding-bottom: 25px;
+}
+img{
+    padding-bottom: 20px;
+}
+li{
+    text-align: justify;
 }
     #rer{
-        margin-top: 100%;
+        margin-top: 20%;
     }
     #non, #non1{
         list-style: none;

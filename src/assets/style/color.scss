@@ -1,0 +1,21 @@
+$footer-background: #6B6B6B;
+$header-text: #FFFFFF;
+$header-text-background:rgba(0, 0, 0, 0.5);
+$sidebar:#317BF2;
+$sidebar-background:rgba(192, 196, 197, 0.23);
+
+
+footer {
+  background: $footer-background;
+}
+#hero{
+  background: $header-text-background;
+  color: $header-text;
+}
+li{
+  color: $sidebar;
+}
+ul#menu1 li:hover{
+  color: $sidebar;
+  background: $sidebar-background;
+}

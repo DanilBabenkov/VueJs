@@ -12,5 +12,6 @@
     <router-link to="/course1">Course</router-link>|
     <router-link to="/coursebook1">CourseBook</router-link>|
     <router-link to="/basicpage">BasicPage</router-link>|
+    <router-link to="/mainpage">MainPage</router-link>|
   </div>
 </template>

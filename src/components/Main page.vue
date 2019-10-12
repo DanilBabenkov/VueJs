@@ -1,10 +1,8 @@
 <template>
-  <main>
-<!--<&#45;&#45; d-flex align-items-center justify-content-center&ndash;&gt;-->
-        <div class="container-fluid hero">
-            <div class="container">
-                <div class="d-flex justify-content-between" id="pad">
-                    <div class="row" id="head">
+    <div class="container-fluid hero">
+        <div class="container">
+            <div class="d-flex justify-content-between" id="pad">
+                <div class="row" id="head">
                     <svg width="38" height="40" viewBox="0 0 38 40" style="fill:#ffffff;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="38" height="40" fill="url(#pattern0)"/>
                         <defs>
@@ -15,77 +13,32 @@
                         </defs>
                     </svg>
                     <h1 class="justify-content-end hero_text">Высшая IT школа</h1>
-                    </div>
-                    <nav id="menu">
-                        <ul class="d-flex justify-content-end hr">
-                            <li>Образование</li>
-                            <li>Партнёрам</li>
-                            <li>Расписание</li>
-                            <li>Руководство</li>
-                        </ul>
-                    </nav>
-                    <div class="btn-group" id="butron">
-<!--                        <button type="button" class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                           Menu-->
-<!--                        </button>-->
-                        <svg data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 26 26" style=" fill:#ffffff;"><path d="M 0 4 L 0 6 L 26 6 L 26 4 Z M 0 12 L 0 14 L 26 14 L 26 12 Z M 0 20 L 0 22 L 26 22 L 26 20 Z"></path></svg>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Образование</a>
-                            <a class="dropdown-item" href="#">Партнёрам</a>
-                            <a class="dropdown-item" href="#">Расписание</a>
-                            <a class="dropdown-item" href="#">Руководство</a>
-                        </div>
+                </div>
+                <nav id="menu">
+                    <ul class="d-flex justify-content-end hr">
+                        <li>Образование</li>
+                        <li>Партнёрам</li>
+                        <li>Расписание</li>
+                        <li>Руководство</li>
+                    </ul>
+                </nav>
+                <div class="btn-group" id="butron">
+                    <svg data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 26 26" style=" fill:#ffffff;"><path d="M 0 4 L 0 6 L 26 6 L 26 4 Z M 0 12 L 0 14 L 26 14 L 26 12 Z M 0 20 L 0 22 L 26 22 L 26 20 Z"></path></svg>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Образование</a>
+                        <a class="dropdown-item" href="#">Партнёрам</a>
+                        <a class="dropdown-item" href="#">Расписание</a>
+                        <a class="dropdown-item" href="#">Руководство</a>
                     </div>
                 </div>
-            <a class="justify-content-end anchor" id="hero">Обычная страница</a>
+            </div>
+            <a class="justify-content-end anchor" id="hero">Что-то интересное про программную инженерию и про наше направление</a>
+            <div class="row d-flex justify-content-end" id="rightnov">
+                <p>Внимание! Очень важный анонс! Прочтите!</p>
+                <a>Подробнее</a>
             </div>
         </div>
-        <div class="container">
-       <div class="row">
-       <div class="col-xl-3 col-md-3">
-           <ul id="menu1">
-               <li>Элемент меню 1</li>
-               <li>Элемент меню 2</li>
-               <li>Элемент меню 3</li>
-           </ul>
-           <div class="btn-group col-sm-12" id="menu-close">
-               <button type="button" class="btn btn-secondary dropdown-toggle" id="menu-but" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Навигация
-               </button>
-               <div class="dropdown-menu dropdown-menu-xl-left" id="menu-but-a">
-                   <a class="dropdown-item" href="#">Элемент меню 1</a>
-                   <a class="dropdown-item" href="#">Элемент меню 2</a>
-                   <a class="dropdown-item" href="#">Элемент меню 3</a>
-               </div>
-           </div>
-       </div>
-       <div class="col-xl-9 col-sm-12 col-md-9">
-           <div id="line"></div>
-<!--           <div class="row">-->
-           <h3>Заголовок 1</h3>
-           <h6>Подзаголовок с каким-то текстом</h6>
-           <p>Sed ut perspiciatis, unde omnis iste natus error sit extremum et quas molestias excepturi sint, obcaecati cupiditate non recusandae itaque turbent, ut earum motus et impetus quo quaerimus, non existimant oportere exquisitis rationibus conquisitis de voluptate velit esse, quam interrogare aut quid iudicat, quo enim.
-               Et quidem faciunt, ut labore et voluptates repudiandae sint et aut petat aut petat aut perferendis doloribus asperiores repellat hanc ego assentior, cum memoriter, tum etiam erga nos causae confidere, sed animo etiam erga nos amice et harum quidem exercitus quid ex ea quid est.
-               Si sine dubio praeclara sunt, explicabo nemo enim ad respondendum reddidisti quorum nihil est, qui dolorem eum iure reprehenderit, qui studiose antiqua persequeris, claris et voluptates repudiandae sint et aut officiis debitis aut in animis nostris inesse notionem, ut summum bonum sit sentiri haec putat</p>
-
-           <h4>Подзаголовок второго уровня</h4>
-           <h6>Подзаголовок с каким-то текстом</h6>
-           <p>Sed ut perspiciatis, unde omnis iste natus error sit extremum et quas molestias excepturi sint, obcaecati cupiditate non recusandae itaque turbent, ut earum motus et impetus quo quaerimus, non existimant oportere exquisitis rationibus conquisitis de voluptate velit esse, quam interrogare aut quid iudicat, quo enim.
-               Et quidem faciunt, ut labore et voluptates repudiandae sint et aut petat aut petat aut perferendis doloribus asperiores repellat hanc ego assentior, cum memoriter, tum etiam erga nos causae confidere, sed animo etiam erga nos amice et harum quidem exercitus quid ex ea quid est.
-               Si sine dubio praeclara sunt, explicabo nemo enim ad respondendum reddidisti quorum nihil est, qui dolorem eum iure reprehenderit, qui studiose antiqua persequeris, claris et voluptates repudiandae sint et aut officiis debitis aut in animis nostris inesse notionem, ut summum bonum sit sentiri haec putat</p>
-
-       </div>
-<!--      // </div>-->
-       </div>
-        </div>
-        <footer class="footer">
-            <div class="container">
-            <span class="text-muted">
-                <font>Высшая IT школа (с) 2019</font>
-            </span>
-            </div>
-        </footer>
-    </main>
+    </div>
 </template>
 
 <script>
@@ -93,12 +46,17 @@
     import {SimpleSVG} from 'vue-simple-svg'
 
     Vue.component('simple-svg', SimpleSVG)
+
     export default {
-        name: "Basic page"
+        name: "Main page"
     }
 </script>
 
 <style scoped >
+    #rightnov{
+        /*width: 100px;*/
+        height: 250px;
+    }
     #menu-but-a{
         border: 1px solid black;
     }
@@ -107,68 +65,68 @@
         max-width: 100%;
         border: 1px solid black;
     }
-#line{
-    position: absolute;
-    width: 1px;
-    height: 543px;
-    left: -70px;
-    /*top: 251px;*/
+    #line{
+        position: absolute;
+        width: 1px;
+        height: 543px;
+        left: -70px;
+        /*top: 251px;*/
 
-    border: 1px solid #DEDEDE;
-}
-ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-}
-ul.hr li {
-    width: 112px;
-    height: 21px;
-    left: 798px;
-    top: 30px;
-    opacity: 1;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
+        border: 1px solid #DEDEDE;
+    }
+    ul.hr {
+        margin: 0; /* Обнуляем значение отступов */
+        padding: 4px; /* Значение полей */
+    }
+    ul.hr li {
+        width: 112px;
+        height: 21px;
+        left: 798px;
+        top: 30px;
+        opacity: 1;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
 
 
-    color: #FFFFFF;
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    padding: 3px; /* Поля вокруг текста */
-}
-ul.hr li:hover{
-    opacity: 0.6;
-}
-#menu-close{
-    display: none;
-}
-li{
-    /*position: absolute;*/
-    width: 126px;
-    height: 19px;
-    left: 180px;
-    top: 250px;
-    font-family: Roboto;
-    font-style: normal;
-    opacity: 1;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    list-style: none;
-    /*padding: 5px;*/
-}
-ul#menu1 li{
-    margin-bottom: 7px;
-}
-/*ul#menu1 li:hover{*/
-/*    color: #317BF2;*/
-/*    !*background: darkgray;*!*/
-/*    background: rgba(192, 196, 197, 0.23);*/
-/*}*/
+        color: #FFFFFF;
+        display: inline; /* Отображать как строчный элемент */
+        margin-right: 5px; /* Отступ слева */
+        padding: 3px; /* Поля вокруг текста */
+    }
+    ul.hr li:hover{
+        opacity: 0.6;
+    }
+    #menu-close{
+        display: none;
+    }
+    li{
+        /*position: absolute;*/
+        width: 126px;
+        height: 19px;
+        left: 180px;
+        top: 250px;
+        font-family: Roboto;
+        font-style: normal;
+        opacity: 1;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        list-style: none;
+        /*padding: 5px;*/
+    }
+    ul#menu1 li{
+        margin-bottom: 7px;
+    }
+    /*ul#menu1 li:hover{*/
+    /*    color: #317BF2;*/
+    /*    !*background: darkgray;*!*/
+    /*    background: rgba(192, 196, 197, 0.23);*/
+    /*}*/
     h3{
         /*position: absolute;*/
         width: 208px;
@@ -246,16 +204,16 @@ ul#menu1 li{
         padding-bottom: 50px;
 
     }
-.dropdown-menu a:hover {
-    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4);
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(163, 175, 176, 0.4);
-    background-color: rgba(192, 196, 197, 0.23);
-    color: rgba(0, 0, 0, 1);
-    border: 1px solid black;
-}
-.dropdown-menu{
-    left: -100px;
-}
+    .dropdown-menu a:hover {
+        -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(163, 175, 176, 0.4);
+        background-color: rgba(192, 196, 197, 0.23);
+        color: rgba(0, 0, 0, 1);
+        border: 1px solid black;
+    }
+    .dropdown-menu{
+        left: -100px;
+    }
 
     h4{
         /*position: absolute;*/
@@ -272,40 +230,40 @@ ul#menu1 li{
 
         color: #000000;
     }
-.hero {
-    background-image: url(https://res.cloudinary.com/blab/image/upload/c_crop,h_1001,w_5575,x_0,y_1035/c_scale,h_350,w_1950/v1547026205/production/user/13177/cover);
-    background-position: center;
-    background-size: cover;
-    /*width: 1440px;*/
-    height: 200px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 50px;
-    padding-left: 40px;
-}
-#head{
-    padding-left: 35px;
-}
-#butron{
-    display: none;
-}
-.hero_text {
-    padding-left: 15px;
-    width: 198px;
-    height: 28px;
-    left: 233px;
-    top: 26px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    padding-top: 8px;
-}
+    .hero {
+        background-image: url("https://www.rgu.ac.uk/images/Online-Learning-unsplash-1504384764586-bb4cdc1707b0.jpg");
+        background-position: center;
+        background-size: cover;
+        /*width: 1440px;*/
+        height: 600px;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 50px;
+        padding-left: 40px;
+    }
+    #head{
+        padding-left: 35px;
+    }
+    #butron{
+        display: none;
+    }
+    .hero_text {
+        padding-left: 15px;
+        width: 198px;
+        height: 28px;
+        left: 233px;
+        top: 26px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-top: 8px;
+    }
     #hero{
-        width: 430px;
-        height: 57px;
+        width: 470px;
+        height: 240px;
         left: 165px;
         top: 98px;
         float: left;
@@ -314,6 +272,7 @@ ul#menu1 li{
         font-weight: 500;
         font-size: 48px;
         line-height: 56px;
+        text-align: justify;
         /* identical to box height */
         /*background: rgba(0, 0, 0, 0.5);*/
         /*color: #FFFFFF;*/
@@ -323,46 +282,46 @@ ul#menu1 li{
         margin-bottom: 29px;
     }
 
-@media screen and (max-width: 992px) {
-   #menu {
-        display: none;
-    }
-    #butron{
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    #line {
-       left: 0px;
-    }
-}
-@media screen and (max-width: 769px) {
-    #menu-close {
-        display: block;
-    }
-    #menu1{
-        display: none;
+    @media screen and (max-width: 992px) {
+        #menu {
+            display: none;
+        }
+        #butron{
+            display: block;
+        }
     }
 
-}
-@media screen and (max-width: 550px) {
-    #hero {
-        position: absolute;
-        left: 0px;
-        padding-left: 10px;
-        /* text-align: left; */
-        max-width: 100%;
-        font-size: 28px;
-        width: 550px;
-        top: 226px;
+    @media screen and (max-width: 1200px) {
+        #line {
+            left: 0px;
+        }
     }
-}
-@media screen and (max-width: 350px) {
-    #hero {
-         text-align: left;
+    @media screen and (max-width: 769px) {
+        #menu-close {
+            display: block;
+        }
+        #menu1{
+            display: none;
+        }
+
     }
-}
+    @media screen and (max-width: 550px) {
+        #hero {
+            position: absolute;
+            left: 0px;
+            padding-left: 10px;
+            /* text-align: left; */
+            max-width: 100%;
+            font-size: 28px;
+            width: 550px;
+            top: 226px;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        #hero {
+            text-align: left;
+        }
+    }
     @media screen and (max-width: 370px) {
         /*#head {*/
         /*    padding-left: 0px;*/
